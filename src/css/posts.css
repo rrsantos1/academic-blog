@@ -1,0 +1,56 @@
+.cardPosts {
+    background-color: #2196f3;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    width: 80%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor:pointer;
+  }
+  
+  .cardPosts h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .cardPosts p {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .back-button {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .search-input {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: #afc5d9;
+  }
+  
+  .search-input:focus {
+    border-color: #2196f3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+  }
+  
