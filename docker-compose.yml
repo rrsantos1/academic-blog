@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    image: rrsnaza/academic-blog:latest
+    container_name: academic-blog-app
+    ports:
+      - "5173:80" # Mapeia a porta 80 do container para a porta 3000 no host
+    environment:
+      - NODE_ENV=production
+    restart: always
