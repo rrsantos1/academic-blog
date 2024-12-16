@@ -16,8 +16,8 @@ Para executar o projeto no Docker utilizando a imagem rrsnaza/academic-blog, é 
 Crie a pasta do projeto e o arquivo docker-compose.yml
 
 ```bash
-  mkdir academic-blog
-  cd academic-blog
+  mkdir academic-blog-frontend
+  cd academic-blog-frontend
   vim docker-compose.yml
 ```
 Adicione as informações a seguir dentro do docker-compose.yml
